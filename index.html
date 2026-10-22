@@ -56,7 +56,70 @@
         <li>HTML básico: estructura de páginas web.</li>
     </ul>
 </section>
-    </main>
+    <section id="proyectos" class="seccion">
+    <h2>Mis proyectos</h2>
+
+    <article class="tarjeta-proyecto">
+        <h3>Mi portafolio personal</h3>
+
+        <img
+            src="img/portafolio.png"
+            alt="Captura de mi portafolio personal en desarrollo"
+            class="imagen-proyecto"
+            width="350"
+        >
+
+        <p>
+            Proyecto académico en desarrollo para presentar mi formación,
+            habilidades y trabajos. Utilizo HTML para organizar el contenido
+            y aplicaré CSS para diseñar su apariencia. Registro los avances
+            mediante commits en Git.
+        </p>
+
+        <a href="#inicio">Ver la presentación del portafolio</a>
+    </article>
+</section>
+
+<section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <p>Este formulario es una demostración y no envía información.</p>
+
+    <form class="formulario-contacto">
+        <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Escribe tu nombre"
+            >
+        </div>
+
+        <div class="campo">
+            <label for="correo">Correo electrónico</label>
+            <input
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="nombre@ejemplo.com"
+            >
+        </div>
+
+        <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Escribe tu mensaje"
+            ></textarea>
+        </div>
+
+        <button type="button" class="boton">Enviar</button>
+    </form>
+</section>
+
+</main>
 
     <footer>
         <p>© 2026 Kevin Herrera</p>
